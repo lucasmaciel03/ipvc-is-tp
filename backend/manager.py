@@ -18,6 +18,7 @@ django.setup()
 from app.csv_processor.processor import CSVImporter, CSVAnalyzer
 from app.core.models import Dataset, DataRecord
 from app.database.manager import DatabaseManager
+from app.xml_tools.xml_service import XMLService
 from django.conf import settings
 import argparse
 import logging
@@ -146,6 +147,86 @@ class IPVCManager:
             print(f"    Samples: {col['sample_values'][:3]}")
         
         print()
+    
+    @staticmethod
+    def generate_xml(name: str, limit: int = None):
+        """Generate XML and XSD for a dataset"""
+        try:
+            dataset = Dataset.objects.get(name=name)
+            
+            print(f"\n{'='*60}")
+            print(f"Generating XML for: {dataset.name}")
+            print(f"{'='*60}\n")
+            
+            # Create XML service
+            xml_service = XMLService(dataset)
+            
+            # Generate XSD
+            print("Step 1: Generating XSD schema...")
+            xsd_path = xml_service.generate_xsd()
+            print(f"✓ XSD generated: {xsd_path}\n")
+            
+            # Generate XML
+            print(f"Step 2: Generating XML (limit: {limit or 'all records'})...")
+            xml_path = xml_service.generate_xml(limit=limit)
+            print(f"✓ XML generated: {xml_path}\n")
+            
+            # Validate
+            print("Step 3: Validating XML against XSD...")
+            is_valid, errors = xml_service.validate_xml()
+            
+            if is_valid:
+                print("✓ XML validation PASSED\n")
+            else:
+                print("✗ XML validation FAILED")
+                print("Errors:")
+                for error in errors:
+                    print(f"  - {error}")
+                print()
+            
+            print(f"{'='*60}")
+            print("Summary:")
+            print(f"  XSD: {xsd_path}")
+            print(f"  XML: {xml_path}")
+            print(f"  Valid: {'Yes' if is_valid else 'No'}")
+            print(f"{'='*60}\n")
+            
+        except Dataset.DoesNotExist:
+            print(f"✗ Dataset '{name}' not found")
+            sys.exit(1)
+        except Exception as e:
+            print(f"✗ Error: {str(e)}")
+            sys.exit(1)
+    
+    @staticmethod
+    def validate_xml(name: str):
+        """Validate XML against XSD for a dataset"""
+        try:
+            dataset = Dataset.objects.get(name=name)
+            
+            print(f"\n{'='*60}")
+            print(f"Validating XML for: {dataset.name}")
+            print(f"{'='*60}\n")
+            
+            xml_service = XMLService(dataset)
+            is_valid, errors = xml_service.validate_xml()
+            
+            if is_valid:
+                print("✓ XML validation PASSED")
+            else:
+                print("✗ XML validation FAILED")
+                print("\nErrors:")
+                for error in errors:
+                    print(f"  - {error}")
+            
+            print()
+            
+        except Dataset.DoesNotExist:
+            print(f"✗ Dataset '{name}' not found")
+            sys.exit(1)
+        except Exception as e:
+            print(f"✗ Error: {str(e)}")
+            sys.exit(1)
 
 
 def main():
@@ -177,6 +258,15 @@ def main():
     analyze_parser = subparsers.add_parser('analyze', help='Analyze CSV without importing')
     analyze_parser.add_argument('file', help='Path to CSV file')
     
+    # Generate XML command
+    xml_parser = subparsers.add_parser('xml', help='Generate XML and XSD for dataset')
+    xml_parser.add_argument('name', help='Dataset name')
+    xml_parser.add_argument('-l', '--limit', type=int, help='Limit number of records')
+    
+    # Validate XML command
+    validate_parser = subparsers.add_parser('validate', help='Validate XML against XSD')
+    validate_parser.add_argument('name', help='Dataset name')
+    
     args = parser.parse_args()
     
     if not args.command:
@@ -195,6 +285,10 @@ def main():
         manager.db_info()
     elif args.command == 'analyze':
         manager.analyze_csv(args.file)
+    elif args.command == 'xml':
+        manager.generate_xml(args.name, args.limit)
+    elif args.command == 'validate':
+        manager.validate_xml(args.name)
 
 
 if __name__ == '__main__':

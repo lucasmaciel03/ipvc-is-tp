@@ -1,0 +1,1203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<agriculture>
+  <record>
+    <product_id>b12c721e-8301-4b08-8ac3-d435be9b8b32</product_id>
+    <product_name>Lamb</product_name>
+    <category>Livestock</category>
+    <price_per_kg>14.1</price_per_kg>
+    <units_shipped_kg>19224</units_shipped_kg>
+    <units_sold_kg>14905</units_sold_kg>
+    <units_on_hand_kg>4319</units_on_hand_kg>
+    <supplier>Organic Meats Co.</supplier>
+    <farm_location>O'Reillyboro, OR</farm_location>
+    <sale_date>2022-07-04</sale_date>
+  </record>
+  <record>
+    <product_id>4a0f8862-c851-4073-bc17-3a3d93834902</product_id>
+    <product_name>Beef</product_name>
+    <category>Livestock</category>
+    <price_per_kg>11.37</price_per_kg>
+    <units_shipped_kg>29504</units_shipped_kg>
+    <units_sold_kg>4550</units_sold_kg>
+    <units_on_hand_kg>24954</units_on_hand_kg>
+    <supplier>Organic Meats Co.</supplier>
+    <farm_location>Lake Nora, AR</farm_location>
+    <sale_date>2023-10-21</sale_date>
+  </record>
+  <record>
+    <product_id>be996df6-1780-4352-8b7d-1f927279aa49</product_id>
+    <product_name>Oranges</product_name>
+    <category>Fruits</category>
+    <price_per_kg>2.59</price_per_kg>
+    <units_shipped_kg>1838</units_shipped_kg>
+    <units_sold_kg>1722</units_sold_kg>
+    <units_on_hand_kg>116</units_on_hand_kg>
+    <supplier>Berry Fields</supplier>
+    <farm_location>East Friedaside, NM</farm_location>
+    <sale_date>2023-12-24</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.34</price_per_kg>
+    <units_shipped_kg>6750</units_shipped_kg>
+    <units_sold_kg>1232</units_sold_kg>
+    <units_on_hand_kg>5518</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>East Javon, FL</farm_location>
+    <sale_date>2023-12-25</sale_date>
+  </record>
+  <record>
+    <product_id>0bd5bf2b-be0a-4ba0-aa92-059021b169e3</product_id>
+    <product_name>Bananas</product_name>
+    <category>Fruits</category>
+    <price_per_kg>1.78</price_per_kg>
+    <units_shipped_kg>48729</units_shipped_kg>
+    <units_sold_kg>47020</units_sold_kg>
+    <units_on_hand_kg>1709</units_on_hand_kg>
+    <supplier>Golden Orchards</supplier>
+    <farm_location>Lake D'angelo, MN</farm_location>
+    <sale_date>2023-06-20</sale_date>
+  </record>
+  <record>
+    <product_id>1c48eb53-85bc-4b76-92ef-97d240a8a227</product_id>
+    <product_name>Potatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>0.92</price_per_kg>
+    <units_shipped_kg>22600</units_shipped_kg>
+    <units_sold_kg>11477</units_sold_kg>
+    <units_on_hand_kg>11123</units_on_hand_kg>
+    <supplier>Nature's Best Produce</supplier>
+    <farm_location>Danielville, FL</farm_location>
+    <sale_date>2023-01-22</sale_date>
+  </record>
+  <record>
+    <product_id>1c48eb53-85bc-4b76-92ef-97d240a8a227</product_id>
+    <product_name>Potatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>0.86</price_per_kg>
+    <units_shipped_kg>14543</units_shipped_kg>
+    <units_sold_kg>5208</units_sold_kg>
+    <units_on_hand_kg>9335</units_on_hand_kg>
+    <supplier>Fresh Harvest Co.</supplier>
+    <farm_location>Bridgettown, IA</farm_location>
+    <sale_date>2023-09-06</sale_date>
+  </record>
+  <record>
+    <product_id>3b87981b-375b-494a-9b11-00bf7144143a</product_id>
+    <product_name>Pork</product_name>
+    <category>Livestock</category>
+    <price_per_kg>7.08</price_per_kg>
+    <units_shipped_kg>8442</units_shipped_kg>
+    <units_sold_kg>7570</units_sold_kg>
+    <units_on_hand_kg>872</units_on_hand_kg>
+    <supplier>Ranchers Pride</supplier>
+    <farm_location>Shainafurt, PA</farm_location>
+    <sale_date>2022-11-14</sale_date>
+  </record>
+  <record>
+    <product_id>921530a1-c4d1-4e94-b8ad-11f6fbcc4fca</product_id>
+    <product_name>Rice</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.99</price_per_kg>
+    <units_shipped_kg>23374</units_shipped_kg>
+    <units_sold_kg>7546</units_sold_kg>
+    <units_on_hand_kg>15828</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>New Bruceton, AL</farm_location>
+    <sale_date>2023-12-12</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.09</price_per_kg>
+    <units_shipped_kg>41999</units_shipped_kg>
+    <units_sold_kg>36611</units_sold_kg>
+    <units_on_hand_kg>5388</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Effertzchester, CO</farm_location>
+    <sale_date>2022-01-02</sale_date>
+  </record>
+  <record>
+    <product_id>4a0f8862-c851-4073-bc17-3a3d93834902</product_id>
+    <product_name>Beef</product_name>
+    <category>Livestock</category>
+    <price_per_kg>11.69</price_per_kg>
+    <units_shipped_kg>5059</units_shipped_kg>
+    <units_sold_kg>585</units_sold_kg>
+    <units_on_hand_kg>4474</units_on_hand_kg>
+    <supplier>Prime Meats LLC</supplier>
+    <farm_location>Port Furmanville, AZ</farm_location>
+    <sale_date>2023-10-23</sale_date>
+  </record>
+  <record>
+    <product_id>9bb2d8db-a7ac-4d40-9d3c-0c96cafe7153</product_id>
+    <product_name>Butter</product_name>
+    <category>Dairy</category>
+    <price_per_kg>5.99</price_per_kg>
+    <units_shipped_kg>38660</units_shipped_kg>
+    <units_sold_kg>1689</units_sold_kg>
+    <units_on_hand_kg>36971</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Tracy, TX</farm_location>
+    <sale_date>2022-03-27</sale_date>
+  </record>
+  <record>
+    <product_id>8dc0c292-d59b-4692-bcc4-2003c0177ea7</product_id>
+    <product_name>Peppers</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>2.26</price_per_kg>
+    <units_shipped_kg>30469</units_shipped_kg>
+    <units_sold_kg>19448</units_sold_kg>
+    <units_on_hand_kg>11021</units_on_hand_kg>
+    <supplier>Nature's Best Produce</supplier>
+    <farm_location>East Myron, IL</farm_location>
+    <sale_date>2023-01-10</sale_date>
+  </record>
+  <record>
+    <product_id>9bb2d8db-a7ac-4d40-9d3c-0c96cafe7153</product_id>
+    <product_name>Butter</product_name>
+    <category>Dairy</category>
+    <price_per_kg>4.58</price_per_kg>
+    <units_shipped_kg>24551</units_shipped_kg>
+    <units_sold_kg>9745</units_sold_kg>
+    <units_on_hand_kg>14806</units_on_hand_kg>
+    <supplier>Dairyland Co-op</supplier>
+    <farm_location>Dachmouth, CO</farm_location>
+    <sale_date>2023-07-17</sale_date>
+  </record>
+  <record>
+    <product_id>5feb3ab1-f866-4401-b84a-d4d4d6168c8f</product_id>
+    <product_name>Apples</product_name>
+    <category>Fruits</category>
+    <price_per_kg>2.74</price_per_kg>
+    <units_shipped_kg>4160</units_shipped_kg>
+    <units_sold_kg>1553</units_sold_kg>
+    <units_on_hand_kg>2607</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>Lulaworth, KS</farm_location>
+    <sale_date>2022-06-21</sale_date>
+  </record>
+  <record>
+    <product_id>dd7f2ac0-a03a-487d-bf43-96d8415c3a60</product_id>
+    <product_name>Rye</product_name>
+    <category>Grains</category>
+    <price_per_kg>1.0</price_per_kg>
+    <units_shipped_kg>45191</units_shipped_kg>
+    <units_sold_kg>16574</units_sold_kg>
+    <units_on_hand_kg>28617</units_on_hand_kg>
+    <supplier>Organic Grain Collective</supplier>
+    <farm_location>Braunworth, DE</farm_location>
+    <sale_date>2023-09-26</sale_date>
+  </record>
+  <record>
+    <product_id>57ad2178-9598-4981-b0f7-78a91162821e</product_id>
+    <product_name>Cheese</product_name>
+    <category>Dairy</category>
+    <price_per_kg>8.89</price_per_kg>
+    <units_shipped_kg>3352</units_shipped_kg>
+    <units_sold_kg>1117</units_sold_kg>
+    <units_on_hand_kg>2235</units_on_hand_kg>
+    <supplier>Dairyland Co-op</supplier>
+    <farm_location>South Katelin, IN</farm_location>
+    <sale_date>2022-08-22</sale_date>
+  </record>
+  <record>
+    <product_id>10a2bd80-7c0e-4d7c-b26a-5dc5dbe2b4cf</product_id>
+    <product_name>Blueberries</product_name>
+    <category>Fruits</category>
+    <price_per_kg>4.84</price_per_kg>
+    <units_shipped_kg>23658</units_shipped_kg>
+    <units_sold_kg>14713</units_sold_kg>
+    <units_on_hand_kg>8945</units_on_hand_kg>
+    <supplier>Golden Orchards</supplier>
+    <farm_location>Carrieview, NY</farm_location>
+    <sale_date>2023-06-02</sale_date>
+  </record>
+  <record>
+    <product_id>f0fa3446-1398-417a-bda7-de131121a15b</product_id>
+    <product_name>Oats</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.79</price_per_kg>
+    <units_shipped_kg>26667</units_shipped_kg>
+    <units_sold_kg>21168</units_sold_kg>
+    <units_on_hand_kg>5499</units_on_hand_kg>
+    <supplier>Farmers Grain Union</supplier>
+    <farm_location>Port Georgette, KY</farm_location>
+    <sale_date>2022-05-09</sale_date>
+  </record>
+  <record>
+    <product_id>28f45387-03b8-48f9-b67c-d921d29f60b6</product_id>
+    <product_name>Corn</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.64</price_per_kg>
+    <units_shipped_kg>18652</units_shipped_kg>
+    <units_sold_kg>1094</units_sold_kg>
+    <units_on_hand_kg>17558</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>Kosschester, GA</farm_location>
+    <sale_date>2023-08-30</sale_date>
+  </record>
+  <record>
+    <product_id>28f45387-03b8-48f9-b67c-d921d29f60b6</product_id>
+    <product_name>Corn</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.57</price_per_kg>
+    <units_shipped_kg>3903</units_shipped_kg>
+    <units_sold_kg>3549</units_sold_kg>
+    <units_on_hand_kg>354</units_on_hand_kg>
+    <supplier>Organic Grain Collective</supplier>
+    <farm_location>East Dusty, AR</farm_location>
+    <sale_date>2022-10-07</sale_date>
+  </record>
+  <record>
+    <product_id>3b5d009c-ae38-4a53-9c94-f1853d67f882</product_id>
+    <product_name>Grapes</product_name>
+    <category>Fruits</category>
+    <price_per_kg>4.78</price_per_kg>
+    <units_shipped_kg>47471</units_shipped_kg>
+    <units_sold_kg>6197</units_sold_kg>
+    <units_on_hand_kg>41274</units_on_hand_kg>
+    <supplier>Citrus World Inc.</supplier>
+    <farm_location>East Nathen, SC</farm_location>
+    <sale_date>2022-02-05</sale_date>
+  </record>
+  <record>
+    <product_id>9bb2d8db-a7ac-4d40-9d3c-0c96cafe7153</product_id>
+    <product_name>Butter</product_name>
+    <category>Dairy</category>
+    <price_per_kg>5.71</price_per_kg>
+    <units_shipped_kg>5343</units_shipped_kg>
+    <units_sold_kg>2204</units_sold_kg>
+    <units_on_hand_kg>3139</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Hesselburgh, NV</farm_location>
+    <sale_date>2022-02-06</sale_date>
+  </record>
+  <record>
+    <product_id>9bb2d8db-a7ac-4d40-9d3c-0c96cafe7153</product_id>
+    <product_name>Butter</product_name>
+    <category>Dairy</category>
+    <price_per_kg>4.61</price_per_kg>
+    <units_shipped_kg>4320</units_shipped_kg>
+    <units_sold_kg>2980</units_sold_kg>
+    <units_on_hand_kg>1340</units_on_hand_kg>
+    <supplier>Organic Valley</supplier>
+    <farm_location>Rhiannonworth, IA</farm_location>
+    <sale_date>2022-11-14</sale_date>
+  </record>
+  <record>
+    <product_id>3b87981b-375b-494a-9b11-00bf7144143a</product_id>
+    <product_name>Pork</product_name>
+    <category>Livestock</category>
+    <price_per_kg>8.33</price_per_kg>
+    <units_shipped_kg>45590</units_shipped_kg>
+    <units_sold_kg>1400</units_sold_kg>
+    <units_on_hand_kg>44190</units_on_hand_kg>
+    <supplier>Organic Meats Co.</supplier>
+    <farm_location>Devonton, MS</farm_location>
+    <sale_date>2023-07-26</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.11</price_per_kg>
+    <units_shipped_kg>37399</units_shipped_kg>
+    <units_sold_kg>30079</units_sold_kg>
+    <units_on_hand_kg>7320</units_on_hand_kg>
+    <supplier>Dairyland Co-op</supplier>
+    <farm_location>South Waltonbury, CT</farm_location>
+    <sale_date>2023-02-03</sale_date>
+  </record>
+  <record>
+    <product_id>4a0f8862-c851-4073-bc17-3a3d93834902</product_id>
+    <product_name>Beef</product_name>
+    <category>Livestock</category>
+    <price_per_kg>8.33</price_per_kg>
+    <units_shipped_kg>24476</units_shipped_kg>
+    <units_sold_kg>17198</units_sold_kg>
+    <units_on_hand_kg>7278</units_on_hand_kg>
+    <supplier>Organic Meats Co.</supplier>
+    <farm_location>Stammberg, VA</farm_location>
+    <sale_date>2023-08-10</sale_date>
+  </record>
+  <record>
+    <product_id>3b87981b-375b-494a-9b11-00bf7144143a</product_id>
+    <product_name>Pork</product_name>
+    <category>Livestock</category>
+    <price_per_kg>7.96</price_per_kg>
+    <units_shipped_kg>24880</units_shipped_kg>
+    <units_sold_kg>22857</units_sold_kg>
+    <units_on_hand_kg>2023</units_on_hand_kg>
+    <supplier>Ranchers Pride</supplier>
+    <farm_location>East Leone, IL</farm_location>
+    <sale_date>2023-04-07</sale_date>
+  </record>
+  <record>
+    <product_id>3b5d009c-ae38-4a53-9c94-f1853d67f882</product_id>
+    <product_name>Grapes</product_name>
+    <category>Fruits</category>
+    <price_per_kg>3.76</price_per_kg>
+    <units_shipped_kg>29897</units_shipped_kg>
+    <units_sold_kg>14133</units_sold_kg>
+    <units_on_hand_kg>15764</units_on_hand_kg>
+    <supplier>Berry Fields</supplier>
+    <farm_location>Gleichnermouth, ME</farm_location>
+    <sale_date>2022-09-01</sale_date>
+  </record>
+  <record>
+    <product_id>8a279b7d-f76f-44c1-8df6-e7db17a391d6</product_id>
+    <product_name>Wheat</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.42</price_per_kg>
+    <units_shipped_kg>19030</units_shipped_kg>
+    <units_sold_kg>14222</units_sold_kg>
+    <units_on_hand_kg>4808</units_on_hand_kg>
+    <supplier>Golden Harvest Agriculture</supplier>
+    <farm_location>Oceanside, SD</farm_location>
+    <sale_date>2022-02-27</sale_date>
+  </record>
+  <record>
+    <product_id>0985f295-bb82-484f-9cab-76637e8e8bdb</product_id>
+    <product_name>Chicken</product_name>
+    <category>Livestock</category>
+    <price_per_kg>3.41</price_per_kg>
+    <units_shipped_kg>12505</units_shipped_kg>
+    <units_sold_kg>977</units_sold_kg>
+    <units_on_hand_kg>11528</units_on_hand_kg>
+    <supplier>Ranchers Pride</supplier>
+    <farm_location>Paucekfield, WA</farm_location>
+    <sale_date>2023-07-18</sale_date>
+  </record>
+  <record>
+    <product_id>0985f295-bb82-484f-9cab-76637e8e8bdb</product_id>
+    <product_name>Chicken</product_name>
+    <category>Livestock</category>
+    <price_per_kg>3.05</price_per_kg>
+    <units_shipped_kg>36294</units_shipped_kg>
+    <units_sold_kg>13084</units_sold_kg>
+    <units_on_hand_kg>23210</units_on_hand_kg>
+    <supplier>Organic Meats Co.</supplier>
+    <farm_location>Carrollton, TN</farm_location>
+    <sale_date>2023-07-20</sale_date>
+  </record>
+  <record>
+    <product_id>921530a1-c4d1-4e94-b8ad-11f6fbcc4fca</product_id>
+    <product_name>Rice</product_name>
+    <category>Grains</category>
+    <price_per_kg>1.19</price_per_kg>
+    <units_shipped_kg>1375</units_shipped_kg>
+    <units_sold_kg>463</units_sold_kg>
+    <units_on_hand_kg>912</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>East Jordonfort, AL</farm_location>
+    <sale_date>2023-04-25</sale_date>
+  </record>
+  <record>
+    <product_id>f0fa3446-1398-417a-bda7-de131121a15b</product_id>
+    <product_name>Oats</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.79</price_per_kg>
+    <units_shipped_kg>25816</units_shipped_kg>
+    <units_sold_kg>18541</units_sold_kg>
+    <units_on_hand_kg>7275</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>New Mauricio, ME</farm_location>
+    <sale_date>2023-11-11</sale_date>
+  </record>
+  <record>
+    <product_id>57ad2178-9598-4981-b0f7-78a91162821e</product_id>
+    <product_name>Cheese</product_name>
+    <category>Dairy</category>
+    <price_per_kg>7.9</price_per_kg>
+    <units_shipped_kg>49280</units_shipped_kg>
+    <units_sold_kg>41151</units_sold_kg>
+    <units_on_hand_kg>8129</units_on_hand_kg>
+    <supplier>Dairyland Co-op</supplier>
+    <farm_location>Fosterfort, WI</farm_location>
+    <sale_date>2022-09-12</sale_date>
+  </record>
+  <record>
+    <product_id>8e1653f9-1b33-405a-b4d8-2cb0af5a59eb</product_id>
+    <product_name>Tomatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>2.62</price_per_kg>
+    <units_shipped_kg>22113</units_shipped_kg>
+    <units_sold_kg>16837</units_sold_kg>
+    <units_on_hand_kg>5276</units_on_hand_kg>
+    <supplier>Green Valley Farms</supplier>
+    <farm_location>Lake Ephraimtown, WA</farm_location>
+    <sale_date>2023-01-21</sale_date>
+  </record>
+  <record>
+    <product_id>9bb2d8db-a7ac-4d40-9d3c-0c96cafe7153</product_id>
+    <product_name>Butter</product_name>
+    <category>Dairy</category>
+    <price_per_kg>4.3</price_per_kg>
+    <units_shipped_kg>19689</units_shipped_kg>
+    <units_sold_kg>822</units_sold_kg>
+    <units_on_hand_kg>18867</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Port Tina, MD</farm_location>
+    <sale_date>2022-05-29</sale_date>
+  </record>
+  <record>
+    <product_id>c81f400e-c19f-417f-99fb-039a19506e85</product_id>
+    <product_name>Onions</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>0.88</price_per_kg>
+    <units_shipped_kg>19891</units_shipped_kg>
+    <units_sold_kg>7328</units_sold_kg>
+    <units_on_hand_kg>12563</units_on_hand_kg>
+    <supplier>Green Valley Farms</supplier>
+    <farm_location>Ankundingshire, CA</farm_location>
+    <sale_date>2023-11-22</sale_date>
+  </record>
+  <record>
+    <product_id>3b87981b-375b-494a-9b11-00bf7144143a</product_id>
+    <product_name>Pork</product_name>
+    <category>Livestock</category>
+    <price_per_kg>7.81</price_per_kg>
+    <units_shipped_kg>8602</units_shipped_kg>
+    <units_sold_kg>3194</units_sold_kg>
+    <units_on_hand_kg>5408</units_on_hand_kg>
+    <supplier>Prime Meats LLC</supplier>
+    <farm_location>West Chynacester, VT</farm_location>
+    <sale_date>2023-01-21</sale_date>
+  </record>
+  <record>
+    <product_id>b12c721e-8301-4b08-8ac3-d435be9b8b32</product_id>
+    <product_name>Lamb</product_name>
+    <category>Livestock</category>
+    <price_per_kg>13.53</price_per_kg>
+    <units_shipped_kg>40482</units_shipped_kg>
+    <units_sold_kg>10082</units_sold_kg>
+    <units_on_hand_kg>30400</units_on_hand_kg>
+    <supplier>Country Fresh Meats</supplier>
+    <farm_location>North Kathleen, TN</farm_location>
+    <sale_date>2023-08-09</sale_date>
+  </record>
+  <record>
+    <product_id>c0e9f888-f1d2-4b5b-a6e9-3c349f68aed0</product_id>
+    <product_name>Barley</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.64</price_per_kg>
+    <units_shipped_kg>7141</units_shipped_kg>
+    <units_sold_kg>5543</units_sold_kg>
+    <units_on_hand_kg>1598</units_on_hand_kg>
+    <supplier>Organic Grain Collective</supplier>
+    <farm_location>Lake Sylvan, DE</farm_location>
+    <sale_date>2022-06-01</sale_date>
+  </record>
+  <record>
+    <product_id>9bb2d8db-a7ac-4d40-9d3c-0c96cafe7153</product_id>
+    <product_name>Butter</product_name>
+    <category>Dairy</category>
+    <price_per_kg>4.78</price_per_kg>
+    <units_shipped_kg>39744</units_shipped_kg>
+    <units_sold_kg>6722</units_sold_kg>
+    <units_on_hand_kg>33022</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Hellerfort, CT</farm_location>
+    <sale_date>2023-11-03</sale_date>
+  </record>
+  <record>
+    <product_id>8e1653f9-1b33-405a-b4d8-2cb0af5a59eb</product_id>
+    <product_name>Tomatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>2.22</price_per_kg>
+    <units_shipped_kg>11295</units_shipped_kg>
+    <units_sold_kg>6816</units_sold_kg>
+    <units_on_hand_kg>4479</units_on_hand_kg>
+    <supplier>Nature's Best Produce</supplier>
+    <farm_location>Miguelfurt, NH</farm_location>
+    <sale_date>2023-07-31</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.32</price_per_kg>
+    <units_shipped_kg>28934</units_shipped_kg>
+    <units_sold_kg>1462</units_sold_kg>
+    <units_on_hand_kg>27472</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Charlottesville, RI</farm_location>
+    <sale_date>2022-01-06</sale_date>
+  </record>
+  <record>
+    <product_id>f0fa3446-1398-417a-bda7-de131121a15b</product_id>
+    <product_name>Oats</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.69</price_per_kg>
+    <units_shipped_kg>31962</units_shipped_kg>
+    <units_sold_kg>18205</units_sold_kg>
+    <units_on_hand_kg>13757</units_on_hand_kg>
+    <supplier>Farmers Grain Union</supplier>
+    <farm_location>Goldnerview, ME</farm_location>
+    <sale_date>2023-08-19</sale_date>
+  </record>
+  <record>
+    <product_id>4a0f8862-c851-4073-bc17-3a3d93834902</product_id>
+    <product_name>Beef</product_name>
+    <category>Livestock</category>
+    <price_per_kg>9.77</price_per_kg>
+    <units_shipped_kg>15847</units_shipped_kg>
+    <units_sold_kg>7836</units_sold_kg>
+    <units_on_hand_kg>8011</units_on_hand_kg>
+    <supplier>Country Fresh Meats</supplier>
+    <farm_location>West Reyesworth, NY</farm_location>
+    <sale_date>2022-11-21</sale_date>
+  </record>
+  <record>
+    <product_id>28f45387-03b8-48f9-b67c-d921d29f60b6</product_id>
+    <product_name>Corn</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.61</price_per_kg>
+    <units_shipped_kg>20024</units_shipped_kg>
+    <units_sold_kg>18321</units_sold_kg>
+    <units_on_hand_kg>1703</units_on_hand_kg>
+    <supplier>Golden Harvest Agriculture</supplier>
+    <farm_location>Nathanialmouth, RI</farm_location>
+    <sale_date>2023-08-26</sale_date>
+  </record>
+  <record>
+    <product_id>3b5d009c-ae38-4a53-9c94-f1853d67f882</product_id>
+    <product_name>Grapes</product_name>
+    <category>Fruits</category>
+    <price_per_kg>4.66</price_per_kg>
+    <units_shipped_kg>12310</units_shipped_kg>
+    <units_sold_kg>8774</units_sold_kg>
+    <units_on_hand_kg>3536</units_on_hand_kg>
+    <supplier>Citrus World Inc.</supplier>
+    <farm_location>West Sammy, AR</farm_location>
+    <sale_date>2022-12-16</sale_date>
+  </record>
+  <record>
+    <product_id>7ba3ccef-363a-40c5-9bbd-a451068846c5</product_id>
+    <product_name>Yogurt</product_name>
+    <category>Dairy</category>
+    <price_per_kg>3.26</price_per_kg>
+    <units_shipped_kg>13232</units_shipped_kg>
+    <units_sold_kg>9284</units_sold_kg>
+    <units_on_hand_kg>3948</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Lake Charles, WA</farm_location>
+    <sale_date>2023-03-07</sale_date>
+  </record>
+  <record>
+    <product_id>c81f400e-c19f-417f-99fb-039a19506e85</product_id>
+    <product_name>Onions</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>1.04</price_per_kg>
+    <units_shipped_kg>44956</units_shipped_kg>
+    <units_sold_kg>4017</units_sold_kg>
+    <units_on_hand_kg>40939</units_on_hand_kg>
+    <supplier>Sunrise Agriculture</supplier>
+    <farm_location>Lakeland, OK</farm_location>
+    <sale_date>2022-12-09</sale_date>
+  </record>
+  <record>
+    <product_id>921530a1-c4d1-4e94-b8ad-11f6fbcc4fca</product_id>
+    <product_name>Rice</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.85</price_per_kg>
+    <units_shipped_kg>40672</units_shipped_kg>
+    <units_sold_kg>12917</units_sold_kg>
+    <units_on_hand_kg>27755</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>Antwonside, WI</farm_location>
+    <sale_date>2022-04-11</sale_date>
+  </record>
+  <record>
+    <product_id>857e56ee-a962-479e-99f0-983999e858bd</product_id>
+    <product_name>Cabbage</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>0.6</price_per_kg>
+    <units_shipped_kg>30997</units_shipped_kg>
+    <units_sold_kg>23809</units_sold_kg>
+    <units_on_hand_kg>7188</units_on_hand_kg>
+    <supplier>Fresh Harvest Co.</supplier>
+    <farm_location>East Sunnyport, VA</farm_location>
+    <sale_date>2022-09-18</sale_date>
+  </record>
+  <record>
+    <product_id>8e1653f9-1b33-405a-b4d8-2cb0af5a59eb</product_id>
+    <product_name>Tomatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>2.74</price_per_kg>
+    <units_shipped_kg>23215</units_shipped_kg>
+    <units_sold_kg>12923</units_sold_kg>
+    <units_on_hand_kg>10292</units_on_hand_kg>
+    <supplier>Green Valley Farms</supplier>
+    <farm_location>Watsicaworth, CT</farm_location>
+    <sale_date>2023-12-18</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.17</price_per_kg>
+    <units_shipped_kg>11512</units_shipped_kg>
+    <units_sold_kg>428</units_sold_kg>
+    <units_on_hand_kg>11084</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Borerbury, TN</farm_location>
+    <sale_date>2022-06-18</sale_date>
+  </record>
+  <record>
+    <product_id>8e1653f9-1b33-405a-b4d8-2cb0af5a59eb</product_id>
+    <product_name>Tomatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>2.94</price_per_kg>
+    <units_shipped_kg>9333</units_shipped_kg>
+    <units_sold_kg>6172</units_sold_kg>
+    <units_on_hand_kg>3161</units_on_hand_kg>
+    <supplier>Sunrise Agriculture</supplier>
+    <farm_location>West Corene, LA</farm_location>
+    <sale_date>2022-09-11</sale_date>
+  </record>
+  <record>
+    <product_id>1c48eb53-85bc-4b76-92ef-97d240a8a227</product_id>
+    <product_name>Potatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>0.9</price_per_kg>
+    <units_shipped_kg>38677</units_shipped_kg>
+    <units_sold_kg>3334</units_sold_kg>
+    <units_on_hand_kg>35343</units_on_hand_kg>
+    <supplier>Sunrise Agriculture</supplier>
+    <farm_location>Lake Michel, LA</farm_location>
+    <sale_date>2022-02-08</sale_date>
+  </record>
+  <record>
+    <product_id>b12c721e-8301-4b08-8ac3-d435be9b8b32</product_id>
+    <product_name>Lamb</product_name>
+    <category>Livestock</category>
+    <price_per_kg>9.71</price_per_kg>
+    <units_shipped_kg>13086</units_shipped_kg>
+    <units_sold_kg>4984</units_sold_kg>
+    <units_on_hand_kg>8102</units_on_hand_kg>
+    <supplier>Ranchers Pride</supplier>
+    <farm_location>Lake Irvingchester, NM</farm_location>
+    <sale_date>2022-03-12</sale_date>
+  </record>
+  <record>
+    <product_id>5feb3ab1-f866-4401-b84a-d4d4d6168c8f</product_id>
+    <product_name>Apples</product_name>
+    <category>Fruits</category>
+    <price_per_kg>2.85</price_per_kg>
+    <units_shipped_kg>42056</units_shipped_kg>
+    <units_sold_kg>34931</units_sold_kg>
+    <units_on_hand_kg>7125</units_on_hand_kg>
+    <supplier>Berry Fields</supplier>
+    <farm_location>Swiftshire, VT</farm_location>
+    <sale_date>2023-08-28</sale_date>
+  </record>
+  <record>
+    <product_id>28f45387-03b8-48f9-b67c-d921d29f60b6</product_id>
+    <product_name>Corn</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.6</price_per_kg>
+    <units_shipped_kg>11595</units_shipped_kg>
+    <units_sold_kg>4603</units_sold_kg>
+    <units_on_hand_kg>6992</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>Kshlerinburgh, TN</farm_location>
+    <sale_date>2023-12-10</sale_date>
+  </record>
+  <record>
+    <product_id>0bd5bf2b-be0a-4ba0-aa92-059021b169e3</product_id>
+    <product_name>Bananas</product_name>
+    <category>Fruits</category>
+    <price_per_kg>1.24</price_per_kg>
+    <units_shipped_kg>14653</units_shipped_kg>
+    <units_sold_kg>12098</units_sold_kg>
+    <units_on_hand_kg>2555</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>Fort Domenickhaven, IN</farm_location>
+    <sale_date>2022-07-25</sale_date>
+  </record>
+  <record>
+    <product_id>4a0f8862-c851-4073-bc17-3a3d93834902</product_id>
+    <product_name>Beef</product_name>
+    <category>Livestock</category>
+    <price_per_kg>8.48</price_per_kg>
+    <units_shipped_kg>48977</units_shipped_kg>
+    <units_sold_kg>37597</units_sold_kg>
+    <units_on_hand_kg>11380</units_on_hand_kg>
+    <supplier>Organic Meats Co.</supplier>
+    <farm_location>Milford, NY</farm_location>
+    <sale_date>2022-07-13</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.07</price_per_kg>
+    <units_shipped_kg>11085</units_shipped_kg>
+    <units_sold_kg>3462</units_sold_kg>
+    <units_on_hand_kg>7623</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Favianboro, MI</farm_location>
+    <sale_date>2022-01-03</sale_date>
+  </record>
+  <record>
+    <product_id>4a0f8862-c851-4073-bc17-3a3d93834902</product_id>
+    <product_name>Beef</product_name>
+    <category>Livestock</category>
+    <price_per_kg>11.3</price_per_kg>
+    <units_shipped_kg>12087</units_shipped_kg>
+    <units_sold_kg>11041</units_sold_kg>
+    <units_on_hand_kg>1046</units_on_hand_kg>
+    <supplier>Ranchers Pride</supplier>
+    <farm_location>Justinachester, CT</farm_location>
+    <sale_date>2023-09-17</sale_date>
+  </record>
+  <record>
+    <product_id>e96370a4-5a1b-4ad6-bfd0-c8bd9d40ee3d</product_id>
+    <product_name>Peaches</product_name>
+    <category>Fruits</category>
+    <price_per_kg>3.87</price_per_kg>
+    <units_shipped_kg>39937</units_shipped_kg>
+    <units_sold_kg>11603</units_sold_kg>
+    <units_on_hand_kg>28334</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>Hayleyfurt, AR</farm_location>
+    <sale_date>2023-02-16</sale_date>
+  </record>
+  <record>
+    <product_id>0fe0ab3f-d8b0-4134-ac3b-0b3c39af304c</product_id>
+    <product_name>Lettuce</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>1.07</price_per_kg>
+    <units_shipped_kg>7251</units_shipped_kg>
+    <units_sold_kg>2407</units_sold_kg>
+    <units_on_hand_kg>4844</units_on_hand_kg>
+    <supplier>Sunrise Agriculture</supplier>
+    <farm_location>McDermottboro, NC</farm_location>
+    <sale_date>2022-06-07</sale_date>
+  </record>
+  <record>
+    <product_id>f0fa3446-1398-417a-bda7-de131121a15b</product_id>
+    <product_name>Oats</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.71</price_per_kg>
+    <units_shipped_kg>39472</units_shipped_kg>
+    <units_sold_kg>39469</units_sold_kg>
+    <units_on_hand_kg>3</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>Port Gustave, KY</farm_location>
+    <sale_date>2022-04-12</sale_date>
+  </record>
+  <record>
+    <product_id>8e1653f9-1b33-405a-b4d8-2cb0af5a59eb</product_id>
+    <product_name>Tomatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>2.91</price_per_kg>
+    <units_shipped_kg>26982</units_shipped_kg>
+    <units_sold_kg>54</units_sold_kg>
+    <units_on_hand_kg>26928</units_on_hand_kg>
+    <supplier>Green Valley Farms</supplier>
+    <farm_location>Brockton, TN</farm_location>
+    <sale_date>2023-02-26</sale_date>
+  </record>
+  <record>
+    <product_id>0bd5bf2b-be0a-4ba0-aa92-059021b169e3</product_id>
+    <product_name>Bananas</product_name>
+    <category>Fruits</category>
+    <price_per_kg>1.36</price_per_kg>
+    <units_shipped_kg>25760</units_shipped_kg>
+    <units_sold_kg>21951</units_sold_kg>
+    <units_on_hand_kg>3809</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>East Eldred, UT</farm_location>
+    <sale_date>2022-06-10</sale_date>
+  </record>
+  <record>
+    <product_id>57ad2178-9598-4981-b0f7-78a91162821e</product_id>
+    <product_name>Cheese</product_name>
+    <category>Dairy</category>
+    <price_per_kg>6.76</price_per_kg>
+    <units_shipped_kg>34855</units_shipped_kg>
+    <units_sold_kg>13223</units_sold_kg>
+    <units_on_hand_kg>21632</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Turnertown, WA</farm_location>
+    <sale_date>2023-06-15</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>0.98</price_per_kg>
+    <units_shipped_kg>22883</units_shipped_kg>
+    <units_sold_kg>2852</units_sold_kg>
+    <units_on_hand_kg>20031</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Joshuabury, PA</farm_location>
+    <sale_date>2023-09-29</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.39</price_per_kg>
+    <units_shipped_kg>38950</units_shipped_kg>
+    <units_sold_kg>34413</units_sold_kg>
+    <units_on_hand_kg>4537</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Redding, AK</farm_location>
+    <sale_date>2022-02-26</sale_date>
+  </record>
+  <record>
+    <product_id>8a279b7d-f76f-44c1-8df6-e7db17a391d6</product_id>
+    <product_name>Wheat</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.44</price_per_kg>
+    <units_shipped_kg>3948</units_shipped_kg>
+    <units_sold_kg>1405</units_sold_kg>
+    <units_on_hand_kg>2543</units_on_hand_kg>
+    <supplier>Golden Harvest Agriculture</supplier>
+    <farm_location>Tucson, NM</farm_location>
+    <sale_date>2022-11-17</sale_date>
+  </record>
+  <record>
+    <product_id>28f45387-03b8-48f9-b67c-d921d29f60b6</product_id>
+    <product_name>Corn</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.48</price_per_kg>
+    <units_shipped_kg>24624</units_shipped_kg>
+    <units_sold_kg>5799</units_sold_kg>
+    <units_on_hand_kg>18825</units_on_hand_kg>
+    <supplier>Golden Harvest Agriculture</supplier>
+    <farm_location>Jessikaboro, WI</farm_location>
+    <sale_date>2023-08-26</sale_date>
+  </record>
+  <record>
+    <product_id>10a2bd80-7c0e-4d7c-b26a-5dc5dbe2b4cf</product_id>
+    <product_name>Blueberries</product_name>
+    <category>Fruits</category>
+    <price_per_kg>7.16</price_per_kg>
+    <units_shipped_kg>24022</units_shipped_kg>
+    <units_sold_kg>20708</units_sold_kg>
+    <units_on_hand_kg>3314</units_on_hand_kg>
+    <supplier>Berry Fields</supplier>
+    <farm_location>Cupertino, NV</farm_location>
+    <sale_date>2023-05-07</sale_date>
+  </record>
+  <record>
+    <product_id>0bd5bf2b-be0a-4ba0-aa92-059021b169e3</product_id>
+    <product_name>Bananas</product_name>
+    <category>Fruits</category>
+    <price_per_kg>1.32</price_per_kg>
+    <units_shipped_kg>10816</units_shipped_kg>
+    <units_sold_kg>6082</units_sold_kg>
+    <units_on_hand_kg>4734</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>Hesperia, MD</farm_location>
+    <sale_date>2022-03-31</sale_date>
+  </record>
+  <record>
+    <product_id>e96370a4-5a1b-4ad6-bfd0-c8bd9d40ee3d</product_id>
+    <product_name>Peaches</product_name>
+    <category>Fruits</category>
+    <price_per_kg>3.02</price_per_kg>
+    <units_shipped_kg>34084</units_shipped_kg>
+    <units_sold_kg>5218</units_sold_kg>
+    <units_on_hand_kg>28866</units_on_hand_kg>
+    <supplier>Citrus World Inc.</supplier>
+    <farm_location>Konopelskiville, VT</farm_location>
+    <sale_date>2023-07-03</sale_date>
+  </record>
+  <record>
+    <product_id>be996df6-1780-4352-8b7d-1f927279aa49</product_id>
+    <product_name>Oranges</product_name>
+    <category>Fruits</category>
+    <price_per_kg>2.71</price_per_kg>
+    <units_shipped_kg>45899</units_shipped_kg>
+    <units_sold_kg>45596</units_sold_kg>
+    <units_on_hand_kg>303</units_on_hand_kg>
+    <supplier>Berry Fields</supplier>
+    <farm_location>West Ethan, KY</farm_location>
+    <sale_date>2022-11-10</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.3</price_per_kg>
+    <units_shipped_kg>39651</units_shipped_kg>
+    <units_sold_kg>25249</units_sold_kg>
+    <units_on_hand_kg>14402</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>North Lew, IN</farm_location>
+    <sale_date>2023-10-22</sale_date>
+  </record>
+  <record>
+    <product_id>3b87981b-375b-494a-9b11-00bf7144143a</product_id>
+    <product_name>Pork</product_name>
+    <category>Livestock</category>
+    <price_per_kg>7.4</price_per_kg>
+    <units_shipped_kg>31082</units_shipped_kg>
+    <units_sold_kg>5536</units_sold_kg>
+    <units_on_hand_kg>25546</units_on_hand_kg>
+    <supplier>Organic Meats Co.</supplier>
+    <farm_location>Caterinaworth, LA</farm_location>
+    <sale_date>2022-03-21</sale_date>
+  </record>
+  <record>
+    <product_id>57ad2178-9598-4981-b0f7-78a91162821e</product_id>
+    <product_name>Cheese</product_name>
+    <category>Dairy</category>
+    <price_per_kg>8.83</price_per_kg>
+    <units_shipped_kg>38504</units_shipped_kg>
+    <units_sold_kg>15519</units_sold_kg>
+    <units_on_hand_kg>22985</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Parisianfurt, HI</farm_location>
+    <sale_date>2023-06-01</sale_date>
+  </record>
+  <record>
+    <product_id>e96370a4-5a1b-4ad6-bfd0-c8bd9d40ee3d</product_id>
+    <product_name>Peaches</product_name>
+    <category>Fruits</category>
+    <price_per_kg>3.22</price_per_kg>
+    <units_shipped_kg>36322</units_shipped_kg>
+    <units_sold_kg>3469</units_sold_kg>
+    <units_on_hand_kg>32853</units_on_hand_kg>
+    <supplier>Citrus World Inc.</supplier>
+    <farm_location>Fort Edgardofield, WI</farm_location>
+    <sale_date>2022-01-09</sale_date>
+  </record>
+  <record>
+    <product_id>57ad2178-9598-4981-b0f7-78a91162821e</product_id>
+    <product_name>Cheese</product_name>
+    <category>Dairy</category>
+    <price_per_kg>8.38</price_per_kg>
+    <units_shipped_kg>29686</units_shipped_kg>
+    <units_sold_kg>21799</units_sold_kg>
+    <units_on_hand_kg>7887</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>East Emmanuelleton, TX</farm_location>
+    <sale_date>2022-09-27</sale_date>
+  </record>
+  <record>
+    <product_id>e96370a4-5a1b-4ad6-bfd0-c8bd9d40ee3d</product_id>
+    <product_name>Peaches</product_name>
+    <category>Fruits</category>
+    <price_per_kg>4.05</price_per_kg>
+    <units_shipped_kg>46850</units_shipped_kg>
+    <units_sold_kg>35111</units_sold_kg>
+    <units_on_hand_kg>11739</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>Collierville, MA</farm_location>
+    <sale_date>2023-05-21</sale_date>
+  </record>
+  <record>
+    <product_id>8e1653f9-1b33-405a-b4d8-2cb0af5a59eb</product_id>
+    <product_name>Tomatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>2.91</price_per_kg>
+    <units_shipped_kg>39479</units_shipped_kg>
+    <units_sold_kg>605</units_sold_kg>
+    <units_on_hand_kg>38874</units_on_hand_kg>
+    <supplier>Fresh Harvest Co.</supplier>
+    <farm_location>Kearny, NJ</farm_location>
+    <sale_date>2023-03-29</sale_date>
+  </record>
+  <record>
+    <product_id>8dc0c292-d59b-4692-bcc4-2003c0177ea7</product_id>
+    <product_name>Peppers</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>1.92</price_per_kg>
+    <units_shipped_kg>11098</units_shipped_kg>
+    <units_sold_kg>1801</units_sold_kg>
+    <units_on_hand_kg>9297</units_on_hand_kg>
+    <supplier>Green Valley Farms</supplier>
+    <farm_location>West Gerard, VT</farm_location>
+    <sale_date>2023-11-15</sale_date>
+  </record>
+  <record>
+    <product_id>0fe0ab3f-d8b0-4134-ac3b-0b3c39af304c</product_id>
+    <product_name>Lettuce</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>1.06</price_per_kg>
+    <units_shipped_kg>42261</units_shipped_kg>
+    <units_sold_kg>26889</units_sold_kg>
+    <units_on_hand_kg>15372</units_on_hand_kg>
+    <supplier>Nature's Best Produce</supplier>
+    <farm_location>Fort Cleora, AR</farm_location>
+    <sale_date>2022-10-16</sale_date>
+  </record>
+  <record>
+    <product_id>b12c721e-8301-4b08-8ac3-d435be9b8b32</product_id>
+    <product_name>Lamb</product_name>
+    <category>Livestock</category>
+    <price_per_kg>13.39</price_per_kg>
+    <units_shipped_kg>32298</units_shipped_kg>
+    <units_sold_kg>30528</units_sold_kg>
+    <units_on_hand_kg>1770</units_on_hand_kg>
+    <supplier>Prime Meats LLC</supplier>
+    <farm_location>New Alana, NC</farm_location>
+    <sale_date>2023-06-15</sale_date>
+  </record>
+  <record>
+    <product_id>10a2bd80-7c0e-4d7c-b26a-5dc5dbe2b4cf</product_id>
+    <product_name>Blueberries</product_name>
+    <category>Fruits</category>
+    <price_per_kg>5.14</price_per_kg>
+    <units_shipped_kg>8114</units_shipped_kg>
+    <units_sold_kg>4459</units_sold_kg>
+    <units_on_hand_kg>3655</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>Cadenhaven, DE</farm_location>
+    <sale_date>2023-01-24</sale_date>
+  </record>
+  <record>
+    <product_id>e96370a4-5a1b-4ad6-bfd0-c8bd9d40ee3d</product_id>
+    <product_name>Peaches</product_name>
+    <category>Fruits</category>
+    <price_per_kg>3.94</price_per_kg>
+    <units_shipped_kg>41005</units_shipped_kg>
+    <units_sold_kg>8662</units_sold_kg>
+    <units_on_hand_kg>32343</units_on_hand_kg>
+    <supplier>Berry Fields</supplier>
+    <farm_location>West Edwinastead, HI</farm_location>
+    <sale_date>2023-07-27</sale_date>
+  </record>
+  <record>
+    <product_id>403d5331-41ba-4a1a-86d2-e1599b965c1b</product_id>
+    <product_name>Strawberries</product_name>
+    <category>Fruits</category>
+    <price_per_kg>5.85</price_per_kg>
+    <units_shipped_kg>16766</units_shipped_kg>
+    <units_sold_kg>16763</units_sold_kg>
+    <units_on_hand_kg>3</units_on_hand_kg>
+    <supplier>Orchard Lane Farms</supplier>
+    <farm_location>Adamsfort, AZ</farm_location>
+    <sale_date>2022-08-28</sale_date>
+  </record>
+  <record>
+    <product_id>7ba3ccef-363a-40c5-9bbd-a451068846c5</product_id>
+    <product_name>Yogurt</product_name>
+    <category>Dairy</category>
+    <price_per_kg>3.44</price_per_kg>
+    <units_shipped_kg>40904</units_shipped_kg>
+    <units_sold_kg>14500</units_sold_kg>
+    <units_on_hand_kg>26404</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Osinskiport, AL</farm_location>
+    <sale_date>2022-08-05</sale_date>
+  </record>
+  <record>
+    <product_id>f0fa3446-1398-417a-bda7-de131121a15b</product_id>
+    <product_name>Oats</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.92</price_per_kg>
+    <units_shipped_kg>33148</units_shipped_kg>
+    <units_sold_kg>32268</units_sold_kg>
+    <units_on_hand_kg>880</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>Franeckibury, LA</farm_location>
+    <sale_date>2022-02-21</sale_date>
+  </record>
+  <record>
+    <product_id>10a2bd80-7c0e-4d7c-b26a-5dc5dbe2b4cf</product_id>
+    <product_name>Blueberries</product_name>
+    <category>Fruits</category>
+    <price_per_kg>5.95</price_per_kg>
+    <units_shipped_kg>9828</units_shipped_kg>
+    <units_sold_kg>5773</units_sold_kg>
+    <units_on_hand_kg>4055</units_on_hand_kg>
+    <supplier>Berry Fields</supplier>
+    <farm_location>Hegmannton, IA</farm_location>
+    <sale_date>2023-09-06</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.35</price_per_kg>
+    <units_shipped_kg>5840</units_shipped_kg>
+    <units_sold_kg>4406</units_sold_kg>
+    <units_on_hand_kg>1434</units_on_hand_kg>
+    <supplier>Fresh Dairy Farms</supplier>
+    <farm_location>Lake Frederick, MN</farm_location>
+    <sale_date>2022-01-17</sale_date>
+  </record>
+  <record>
+    <product_id>28f45387-03b8-48f9-b67c-d921d29f60b6</product_id>
+    <product_name>Corn</product_name>
+    <category>Grains</category>
+    <price_per_kg>0.49</price_per_kg>
+    <units_shipped_kg>26061</units_shipped_kg>
+    <units_sold_kg>8705</units_sold_kg>
+    <units_on_hand_kg>17356</units_on_hand_kg>
+    <supplier>Midwest Grains Co.</supplier>
+    <farm_location>West Mariam, MS</farm_location>
+    <sale_date>2023-11-10</sale_date>
+  </record>
+  <record>
+    <product_id>0985f295-bb82-484f-9cab-76637e8e8bdb</product_id>
+    <product_name>Chicken</product_name>
+    <category>Livestock</category>
+    <price_per_kg>2.74</price_per_kg>
+    <units_shipped_kg>14044</units_shipped_kg>
+    <units_sold_kg>4938</units_sold_kg>
+    <units_on_hand_kg>9106</units_on_hand_kg>
+    <supplier>Country Fresh Meats</supplier>
+    <farm_location>Grand Island, CA</farm_location>
+    <sale_date>2022-07-20</sale_date>
+  </record>
+  <record>
+    <product_id>1c48eb53-85bc-4b76-92ef-97d240a8a227</product_id>
+    <product_name>Potatoes</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>0.82</price_per_kg>
+    <units_shipped_kg>30380</units_shipped_kg>
+    <units_sold_kg>22161</units_sold_kg>
+    <units_on_hand_kg>8219</units_on_hand_kg>
+    <supplier>Fresh Harvest Co.</supplier>
+    <farm_location>Marquesmouth, MI</farm_location>
+    <sale_date>2023-10-02</sale_date>
+  </record>
+  <record>
+    <product_id>6c8adfc3-2114-4b78-a3e2-2269a6a0dc02</product_id>
+    <product_name>Milk</product_name>
+    <category>Dairy</category>
+    <price_per_kg>1.17</price_per_kg>
+    <units_shipped_kg>43706</units_shipped_kg>
+    <units_sold_kg>14559</units_sold_kg>
+    <units_on_hand_kg>29147</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Tempe, ME</farm_location>
+    <sale_date>2022-01-11</sale_date>
+  </record>
+  <record>
+    <product_id>9bb2d8db-a7ac-4d40-9d3c-0c96cafe7153</product_id>
+    <product_name>Butter</product_name>
+    <category>Dairy</category>
+    <price_per_kg>5.47</price_per_kg>
+    <units_shipped_kg>44602</units_shipped_kg>
+    <units_sold_kg>23822</units_sold_kg>
+    <units_on_hand_kg>20780</units_on_hand_kg>
+    <supplier>Happy Cows Dairy</supplier>
+    <farm_location>Ellicott City, FL</farm_location>
+    <sale_date>2022-08-21</sale_date>
+  </record>
+  <record>
+    <product_id>0fe0ab3f-d8b0-4134-ac3b-0b3c39af304c</product_id>
+    <product_name>Lettuce</product_name>
+    <category>Vegetables</category>
+    <price_per_kg>1.17</price_per_kg>
+    <units_shipped_kg>33908</units_shipped_kg>
+    <units_sold_kg>2231</units_sold_kg>
+    <units_on_hand_kg>31677</units_on_hand_kg>
+    <supplier>Nature's Best Produce</supplier>
+    <farm_location>New Thad, IA</farm_location>
+    <sale_date>2023-07-30</sale_date>
+  </record>
+</agriculture>

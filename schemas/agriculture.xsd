@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="agriculture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="record" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="product_id" type="xs:string"/>
+              <xs:element name="product_name" type="xs:string"/>
+              <xs:element name="category" type="xs:string"/>
+              <xs:element name="price_per_kg" type="xs:decimal"/>
+              <xs:element name="units_shipped_kg" type="xs:integer"/>
+              <xs:element name="units_sold_kg" type="xs:integer"/>
+              <xs:element name="units_on_hand_kg" type="xs:integer"/>
+              <xs:element name="supplier" type="xs:string"/>
+              <xs:element name="farm_location" type="xs:string"/>
+              <xs:element name="sale_date" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
