@@ -135,6 +135,7 @@ POST   /api/xpath/query/              # Queries FLWOR-like
 ```
 
 **CLI:**
+
 ```bash
 python manager.py xpath agriculture "//record[1]" -f dict
 python manager.py xpath retail "count(//record)" -f count
