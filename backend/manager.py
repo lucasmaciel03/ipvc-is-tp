@@ -227,6 +227,61 @@ class IPVCManager:
         except Exception as e:
             print(f"✗ Error: {str(e)}")
             sys.exit(1)
+    
+    @staticmethod
+    def xpath_query(name: str, query: str, output_format: str = 'text'):
+        """Execute XPath query on dataset XML"""
+        from app.xml_tools.xpath_query import XPathQueryEngine
+        import json
+        
+        try:
+            dataset = Dataset.objects.get(name=name)
+        except Dataset.DoesNotExist:
+            print(f"✗ Dataset '{name}' not found")
+            sys.exit(1)
+        
+        if not dataset.xml_file_path:
+            print(f"✗ No XML file for dataset '{name}'")
+            print(f"Generate XML first: python manager.py xml {name} -l 100")
+            sys.exit(1)
+        
+        print(f"\n{'='*60}")
+        print(f"XPath Query: {dataset.name}")
+        print(f"{'='*60}")
+        print(f"Query: {query}")
+        print(f"Format: {output_format}")
+        print(f"{'='*60}\n")
+        
+        try:
+            xpath_engine = XPathQueryEngine(dataset)
+            
+            if output_format == 'text':
+                results = xpath_engine.get_element_text(query)
+                print(f"Results ({len(results)} items):")
+                for i, result in enumerate(results[:50], 1):  # Show first 50
+                    print(f"  {i}. {result}")
+                if len(results) > 50:
+                    print(f"  ... and {len(results) - 50} more")
+            
+            elif output_format == 'count':
+                count = xpath_engine.count_elements(query)
+                print(f"Count: {count}")
+            
+            else:  # dict
+                results = xpath_engine.query_to_dict(query)
+                print(f"Results ({len(results)} items):")
+                for i, result in enumerate(results[:10], 1):  # Show first 10
+                    print(f"\n{i}. {json.dumps(result, indent=2)}")
+                if len(results) > 10:
+                    print(f"\n... and {len(results) - 10} more")
+            
+            print(f"\n{'='*60}")
+            print("✓ Query executed successfully")
+            print(f"{'='*60}\n")
+            
+        except Exception as e:
+            print(f"\n✗ Query failed: {e}")
+            sys.exit(1)
 
 
 def main():
@@ -267,6 +322,13 @@ def main():
     validate_parser = subparsers.add_parser('validate', help='Validate XML against XSD')
     validate_parser.add_argument('name', help='Dataset name')
     
+    # XPath query command
+    xpath_parser = subparsers.add_parser('xpath', help='Execute XPath query on XML')
+    xpath_parser.add_argument('name', help='Dataset name')
+    xpath_parser.add_argument('query', help='XPath expression')
+    xpath_parser.add_argument('-f', '--format', choices=['dict', 'text', 'count'], 
+                             default='text', help='Output format')
+    
     args = parser.parse_args()
     
     if not args.command:
@@ -289,6 +351,8 @@ def main():
         manager.generate_xml(args.name, args.limit)
     elif args.command == 'validate':
         manager.validate_xml(args.name)
+    elif args.command == 'xpath':
+        manager.xpath_query(args.name, args.query, args.format)
 
 
 if __name__ == '__main__':

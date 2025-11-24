@@ -123,6 +123,23 @@ generate_xml(id, limit, generate_xsd, validate)
 validate_xml(dataset_id)
 ```
 
+### ✅ XPath/XQuery (6 endpoints)
+
+```bash
+GET    /api/xpath/                    # Lista exemplos
+POST   /api/xpath/execute/            # Executa query XPath
+POST   /api/xpath/statistics/         # Estatísticas do XML
+POST   /api/xpath/aggregate/          # Agregações (sum, avg, etc)
+POST   /api/xpath/group_by/           # Group by com agregação
+POST   /api/xpath/query/              # Queries FLWOR-like
+```
+
+**CLI:**
+```bash
+python manager.py xpath agriculture "//record[1]" -f dict
+python manager.py xpath retail "count(//record)" -f count
+```
+
 ---
 
 ## 🧪 Testes
@@ -164,12 +181,13 @@ python app/interfaces/xmlrpc/client_test.py
 
 ## 📚 Documentação
 
-| Arquivo                                              | Descrição             |
-| ---------------------------------------------------- | --------------------- |
-| [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)             | Resumo executivo      |
-| [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md) | Documentação completa |
-| [QUICK_START.md](QUICK_START.md)                     | Guia rápido           |
-| [REST_API_DOCS.md](backend/REST_API_DOCS.md)         | REST API reference    |
+| Arquivo                                              | Descrição              |
+| ---------------------------------------------------- | ---------------------- |
+| [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)             | Resumo executivo       |
+| [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md) | Documentação completa  |
+| [QUICK_START.md](QUICK_START.md)                     | Guia rápido            |
+| [REST_API_DOCS.md](backend/REST_API_DOCS.md)         | REST API reference     |
+| [XPATH_GUIDE.md](docs/XPATH_GUIDE.md)                | XPath/XQuery reference |
 
 ---
 
@@ -177,13 +195,14 @@ python app/interfaces/xmlrpc/client_test.py
 
 **Projeto 100% Funcional!**
 
-- ✅ CSV Import: 2 datasets importados
+- ✅ CSV Import: 2 datasets importados (18,887 registros)
 - ✅ XML/XSD: Arquivos gerados e validados
 - ✅ REST API: 9 endpoints testados
 - ✅ gRPC API: 6 métodos testados
 - ✅ XML-RPC API: 7 métodos testados
+- ✅ XPath/XQuery: 6 endpoints + CLI funcional
 - ✅ Web Interface: Dashboard funcional
-- ✅ CLI Tool: 7 comandos disponíveis
+- ✅ CLI Tool: 8 comandos disponíveis
 
 ---
 
