@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+{% load core_extras %}
+
+{% block title %}{{ dataset.name }} - IPVC Integration System{% endblock %}
+
+{% block extra_css %}
+<style>
+  .dataset-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .info-item {
+    padding: 10px;
+    background: #f7fafc;
+    border-radius: 5px;
+  }
+
+  .info-label {
+    font-size: 0.85em;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .info-value {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  th {
+    background: #667eea;
+    color: white;
+    font-weight: 600;
+  }
+
+  tr:hover {
+    background: #f7fafc;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+
+  .back-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+</style>
+{% endblock %} {% block content %}
+<a href="/" class="back-link">← Back to Dashboard</a>
+
+<div class="content">
+  <h2 style="color: #667eea; margin-bottom: 20px">📊 {{ dataset.name }}</h2>
+
+  <div class="dataset-info">
+    <p style="color: #666; margin-bottom: 15px">{{ dataset.description }}</p>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <div class="info-label">Total Rows</div>
+        <div class="info-value">{{ dataset.total_rows }}</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Total Columns</div>
+        <div class="info-value">{{ dataset.total_columns }}</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Status</div>
+        <div class="info-value">{{ dataset.status }}</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Imported</div>
+        <div class="info-value">{{ dataset.created_at|date:"d/m/Y" }}</div>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="margin: 30px 0 15px 0; color: #333">
+    📋 Columns ({{ columns.count }})
+  </h3>
+  <div style="overflow-x: auto; margin-bottom: 30px">
+    <table>
+      <thead>
+        <tr>
+          <th>Column Name</th>
+          <th>Data Type</th>
+          <th>Nullable</th>
+          <th>Unique Values</th>
+          <th>Null Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for column in columns %}
+        <tr>
+          <td><strong>{{ column.name }}</strong></td>
+          <td>{{ column.data_type }}</td>
+          <td>{{ column.nullable|yesno:"Yes,No" }}</td>
+          <td>{{ column.unique_count }}</td>
+          <td>{{ column.null_count }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="margin: 30px 0 15px 0; color: #333">
+    💾 Sample Data (First 100 records)
+  </h3>
+  <div style="overflow-x: auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Row #</th>
+          {% for column in columns|slice:":10" %}
+          <th>{{ column.name }}</th>
+          {% endfor %} {% if columns.count > 10 %}
+          <th>...</th>
+          {% endif %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for record in records %}
+        <tr>
+          <td>{{ record.row_number }}</td>
+          {% for column in columns|slice:":10" %}
+          <td>{{ record.data|lookup:column.name|truncatechars:50 }}</td>
+          {% endfor %} {% if columns.count > 10 %}
+          <td>...</td>
+          {% endif %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock %}

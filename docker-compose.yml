@@ -1,0 +1,127 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: ipvc_postgres
+    environment:
+      POSTGRES_DB: ipvc_integration_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - ipvc_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # MySQL Database (alternative to PostgreSQL)
+  mysql:
+    image: mysql:8.0
+    container_name: ipvc_mysql
+    environment:
+      MYSQL_DATABASE: ipvc_integration_db
+      MYSQL_ROOT_PASSWORD: mysql123
+      MYSQL_USER: ipvc_user
+      MYSQL_PASSWORD: ipvc_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - ipvc_network
+    command: --default-authentication-plugin=mysql_native_password
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    profiles:
+      - mysql
+
+  # Django Application
+  django:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: ipvc_django
+    command: python backend/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+      - static_volume:/app/backend/staticfiles
+      - media_volume:/app/backend/media
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=True
+      - DJANGO_SETTINGS_MODULE=app.settings
+      - DB_ENGINE=postgresql
+      - POSTGRES_DB=ipvc_integration_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres123
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ipvc_network
+
+  # gRPC Server
+  grpc_server:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: ipvc_grpc
+    command: python backend/app/interfaces/grpc/server.py
+    volumes:
+      - .:/app
+    ports:
+      - "50051:50051"
+    environment:
+      - DJANGO_SETTINGS_MODULE=app.settings
+      - DB_ENGINE=postgresql
+      - POSTGRES_DB=ipvc_integration_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres123
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ipvc_network
+    profiles:
+      - full
+
+  # pgAdmin (PostgreSQL Management)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: ipvc_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@ipvc.pt
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - ipvc_network
+    profiles:
+      - tools
+
+volumes:
+  postgres_data:
+  mysql_data:
+  static_volume:
+  media_volume:
+
+networks:
+  ipvc_network:
+    driver: bridge

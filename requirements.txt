@@ -1,0 +1,28 @@
+# IPVC Integration System - Requirements
+
+# Django & Database
+Django>=4.2,<5.0
+psycopg2-binary>=2.9.9
+# mysqlclient>=2.2.0  # Opcional - instalar manualmente se usar MySQL
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# XML Processing
+lxml>=4.9.0
+xmlschema>=2.5.0
+
+# API & Web
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# gRPC
+grpcio>=1.59.0
+grpcio-tools>=1.59.0
+protobuf>=4.25.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
